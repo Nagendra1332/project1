@@ -1,0 +1,65 @@
+Projects Table
+--------------------
+ID
+ProjectName
+ProjectDescription
+ProjectOwnership
+ProjectManager
+ProjectStartDate
+ProjectEndDate
+CreatedBy
+CreatedDate
+ModifiedBy
+ModifiedDate
+
+
+Tasks Table
+--------------------
+ID
+TaskName
+TaskDescription
+TaskStartDate
+TaskEndDate
+ProjectID
+CreatedBy
+CreatedDate
+ModifiedBy
+ModifiedDate
+
+
+TaskMapping Table
+--------------------
+ID
+TaskID
+ProjectID
+ResourceID / EmployeeID
+EffectiveFrom
+EffectiveTo
+CreatedBy
+CreatedDate
+ModifiedBy
+ModifiedDate
+
+
+TimeSheet Table
+--------------------
+ID
+ProjectID
+TaskID
+ResourceID
+Date1
+..
+..
+Date31
+Date1Hours
+.
+.
+Date31Hours
+Month
+Year
+ApprovedBy
+ApprovedDate
+CreatedBy
+CreatedDate
+ModifiedBy
+ModifiedDate
